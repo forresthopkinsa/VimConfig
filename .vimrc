@@ -59,3 +59,5 @@ au BufNewFile,BufRead *.py
 "    \ set expandtab
 "    \ set autoindent
     \ set fileformat=unix
+
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
