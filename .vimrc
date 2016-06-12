@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Bundle 'captbaritone/better-indent-support-for-php-with-html'
 Plugin 'tmhedberg/SimpylFold'
+Plugin 'vim-scripts/indentpython.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -51,3 +52,4 @@ set softtabstop=4
 set expandtab
 
 let g:SimpylFold_docstring_preview = 1
+
