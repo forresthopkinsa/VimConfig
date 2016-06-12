@@ -39,17 +39,23 @@ nnoremap <tab> <c-w>
 
 nmap <CR> o<Esc>
 
-filetype indent plugin on
-
 syntax on
-
-set autoindent
-
 set number
 
+filetype indent plugin on
+set autoindent
 set shiftwidth=4
 set softtabstop=4
 set expandtab
 
 let g:SimpylFold_docstring_preview = 1
 
+" PEP8 Compliance
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+"    \ set softtabstop=4
+"    \ set shiftwidth=4
+    \ set textwidth=79
+"    \ set expandtab
+"    \ set autoindent
+    \ set fileformat=unix
