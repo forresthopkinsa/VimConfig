@@ -39,6 +39,7 @@ nnoremap <tab> <c-w>
 
 nmap <CR> o<Esc>
 
+set encoding=utf-8
 syntax on
 set number
 
