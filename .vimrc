@@ -49,3 +49,5 @@ set number
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+let g:SimpylFold_docstring_preview = 1
