@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'captbaritone/better-indent-support-for-php-with-html'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
+Bundle 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
