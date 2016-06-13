@@ -42,6 +42,7 @@ nmap <CR> o<Esc>
 
 set encoding=utf-8
 syntax on
+let python_highlight_all=1
 set number
 
 filetype indent plugin on
