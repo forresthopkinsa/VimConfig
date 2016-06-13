@@ -14,6 +14,8 @@ Bundle 'captbaritone/better-indent-support-for-php-with-html'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
+Plugin 'jnurmine/Zenburn'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -67,3 +69,12 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+" Color scheming
+set t_Co=256
+if has('gui_running')
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme zenburn
+endif
