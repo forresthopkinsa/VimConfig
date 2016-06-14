@@ -1,6 +1,11 @@
 # These commands should all be executed manually;
 #   this is not a script (yet)
 
+# Make sure you have the full version of vim
+#   Ubuntu's default vim is the "basic" package
+apt-get remove vim
+apt-get install vim-nox
+
 # YCM Compile
 #   https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
 
