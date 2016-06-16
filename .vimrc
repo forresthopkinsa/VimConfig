@@ -83,3 +83,6 @@ if has('gui_running')
 else
   colorscheme zenburn
 endif
+
+" Airline custom glyphs
+let g:airline_powerline_fonts = 1
