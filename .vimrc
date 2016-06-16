@@ -56,6 +56,8 @@ set expandtab
 
 let g:SimpylFold_docstring_preview = 1
 
+set laststatus=2
+
 " PEP8 Compliance
 au BufNewFile,BufRead *.py
     \ set tabstop=4
@@ -66,7 +68,8 @@ au BufNewFile,BufRead *.py
 "    \ set autoindent
     \ set fileformat=unix
 
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+" Not working
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
