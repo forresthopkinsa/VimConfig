@@ -26,4 +26,10 @@ else
         export TERM='xterm-color'
 fi
 
+# Powerline font installation
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+# Terminal must be instructed to use new font
+
 # Be sure to :plugininstall inside vim
