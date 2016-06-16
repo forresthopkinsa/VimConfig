@@ -53,6 +53,7 @@ set autoindent
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set backspace=2
 
 let g:SimpylFold_docstring_preview = 1
 
