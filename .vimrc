@@ -56,6 +56,7 @@ set expandtab
 set backspace=2
 
 let g:SimpylFold_docstring_preview = 1
+set foldlevelstart=2
 
 set laststatus=2
 
